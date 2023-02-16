@@ -10,7 +10,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/purple_500"
-        android:padding="8dp">
+        android:paddingStart="8dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="16dp">
 
         <ImageView
             android:id="@+id/ic_all_inclusive"
@@ -57,14 +60,15 @@
         android:gravity="center"
         android:padding="16dp"
         android:text="@string/text_motivational_phrase"
-        android:textSize="16sp" />
+        android:textSize="18sp" />
 
     <View
         android:layout_width="128dp"
-        android:layout_height="5dp"
+        android:layout_height="3dp"
         android:layout_below="@+id/text_motivational_phrase"
         android:layout_centerHorizontal="true"
-        android:background="@color/purple_500" />
+        android:background="@color/purple_500"
+        android:elevation="5dp" />
 
     <Button
         android:id="@+id/button_new_phrase"
